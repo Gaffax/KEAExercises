@@ -1,0 +1,20 @@
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+
+
+public class Run {
+	 // Uses a linked list to implement the sieve of
+	 // Eratosthenes algorithm for finding prime numbers.
+	
+
+	List<Integer> testList = new ArrayList<>();
+	List<Integer> listTwo = new ArrayList<>();
+	
+	
+	ExTwo_AlternateList RunTwo = new ExTwo_AlternateList();
+}

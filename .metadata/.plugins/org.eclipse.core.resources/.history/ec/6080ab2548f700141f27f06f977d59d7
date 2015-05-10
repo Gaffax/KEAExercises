@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+public class Run {
+	 // Uses a linked list to implement the sieve of
+	 // Eratosthenes algorithm for finding prime numbers.
+	
+
+	List<Integer> listOne = new ArrayList<Integer>();
+	listOne
+	List<Integer> listTwo = new ArrayList<Integer>();
+	
+	
+	ExTwo_AlternateList RunTwo = new ExTwo_AlternateList();
+}

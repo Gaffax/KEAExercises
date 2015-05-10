@@ -1,0 +1,12 @@
+package searchandsort;
+
+public class Run {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Ex13One solve = new Ex13One();
+		solve.binarySearch(103);
+	}
+
+}

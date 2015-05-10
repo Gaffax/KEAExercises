@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Run {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		List<Integer> listOne = new ArrayList();
+		listOne.add(1,5);
+		List<Integer> listTwo = new ArrayList();
+		
+		ExTwo_AlternateList splicedList = new ExTwo_AlternateList();
+		
+		System.out.print(splicedList.spliceLists(listOne, listTwo));
+		
+	}
+
+}

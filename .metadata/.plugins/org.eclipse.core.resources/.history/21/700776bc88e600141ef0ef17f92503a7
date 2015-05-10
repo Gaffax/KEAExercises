@@ -1,0 +1,7 @@
+package searchandsort;
+
+public static class Run {
+
+	Ex13One solve = new Ex13One();
+	
+}
