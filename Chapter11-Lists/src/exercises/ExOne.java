@@ -1,3 +1,4 @@
+package exercises;
 
 public class ExOne {
 
@@ -7,4 +8,6 @@ public class ExOne {
 	ensure that if the first number in the numbers list ever reaches the square root of the maximum, all remaining values
 	from the numbers list are moved into the primes list. (Why is this a valid operation?)
 	*/
+	
+	//Nope
 }
