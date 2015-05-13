@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 import exercises.*;
 
@@ -23,7 +25,8 @@ public class Run {
 		//runExFour(2);//Comes in two solutions solution 1 does not allow duplicates and solution 2 allows duplicates.
 		//runExFive();
 		//runExSix();
-		runExSeven();
+		//runExSeven();
+		runExEight();
 	}
 
 	
@@ -167,4 +170,21 @@ public class Run {
 	
 	}
 	
+	
+	public static void runExEight(){
+//		8. Write a method maxLength that accepts a set of 
+//		strings as a parameter and that returns the length 
+//		of the longest string in the list. If your method 
+//		is passed an empty set, it should return 0.
+		
+		Eight run = new Eight();
+		
+		Set<String> someStrings = new HashSet<String>();
+		someStrings.add("This ");
+		someStrings.add("is ");
+		someStrings.add("a ");
+		someStrings.add("test");
+		
+		run.maxLenght(someStrings);
+	}
 }
