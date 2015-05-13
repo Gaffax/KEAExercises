@@ -25,7 +25,10 @@ public class Teen {
 		// the even strings from the string set
 		Iterator<String> itr2 = setOfStrings.iterator();
 
-		while (itr2.hasNext()) 
-			System.out.println((String) itr2.next());
+		for(String strings : setOfStrings)
+			System.out.println(strings);
+		
+//		while (itr2.hasNext()) 
+//			System.out.println((String) itr2.next());
 	}
 }
