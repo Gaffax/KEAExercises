@@ -4,6 +4,7 @@ import java.util.List;
 
 import exercises.ExFive;
 import exercises.ExFour;
+import exercises.ExSix;
 import exercises.ExThree;
 import exercises.ExTwo_AlternateList;
 
@@ -23,7 +24,8 @@ public class Run {
 		//runExTwo(); //sysout one merged list.
 		//runExThree();
 		//runExFour(2);//Comes in two solutions solution 1 does not allow duplicates and solution 2 allows duplicates.
-		runExFive();
+		//runExFive();
+		runExSix();
 	}
 
 	
@@ -128,5 +130,22 @@ public class Run {
 		ExFive run = new ExFive();
 		
 		run.sortAndRemoveDublicates(list);
+	}
+	
+	public static void runExSix(){
+//		6. Write a method countUnique that accepts a list of integers as
+//		a parameter and returns the number of unique integer
+//		values in the list. Use a set as auxiliary storage to help you 
+//		solve this problem. For example, if a list contains the values
+//		(3, 7, 3, –1, 2, 3, 7, 2, 15, 15), your method should return 5. 
+//		The empty list contains 0 unique values.
+		
+		int[] arrayOfInts = {3, 7, 3, -1, 2, 3, 7, 2, 15, 15};
+		
+		ExSix run = new ExSix();
+		
+		run.countUnique(arrayOfInts);
+		
+		
 	}
 }
