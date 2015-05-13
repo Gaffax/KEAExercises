@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import exercises.ExFive;
 import exercises.ExFour;
 import exercises.ExThree;
 import exercises.ExTwo_AlternateList;
@@ -22,6 +23,7 @@ public class Run {
 		//runExTwo(); //sysout one merged list.
 		//runExThree();
 		//runExFour(2);//Comes in two solutions solution 1 does not allow duplicates and solution 2 allows duplicates.
+		runExFive();
 	}
 
 	
@@ -104,5 +106,27 @@ public class Run {
 		} else {
 			System.out.println("Hey dude. \n You need to pass either 1 or 2 into the static method. \n Not that hard.");
 		}
+	}
+	
+	public static void runExFive (){
+//		5. Write a method called sortAndRemoveDuplicates that 
+//		accepts a list of integers as its parameter and rearranges
+//		the list’s elements into sorted ascending order, as well as 
+//		removing all duplicate values from the list. For example,
+//		the list (7, 4, –9, 4, 15, 8, 27, 7, 11, –5, 32, –9, –9) would 
+//		become (–9, –5, 4, 7, 8, 11,
+//		15, 27, 32) after a call to your method. Use a Set as part of 
+//		your solution.
+		
+		int[] arrayOfInts = {7, 4, -9, 4, 15, 8, 27, 7, 11, -5, 32, -9, -9};
+		
+		List<Integer> list = new LinkedList<Integer>();
+		for(int i = 0; i < arrayOfInts.length; i++){
+			list.add(arrayOfInts[i]);
+		}
+		
+		ExFive run = new ExFive();
+		
+		run.sortAndRemoveDublicates(list);
 	}
 }

@@ -27,10 +27,11 @@ public class ExFour {
 
 		Iterator<Integer> itr = list.iterator();
 		List<Integer> tempList = new LinkedList<Integer>();
+		int number;
 
 		while (itr.hasNext()) {
 
-			int number = itr.next();
+			number = itr.next();
 
 			if (number < ValueE) {
 				System.out.println(number);
@@ -50,12 +51,13 @@ public class ExFour {
 
 		Set hashSet = new HashSet<Integer>();
 		Set<Integer> tempSet = new HashSet<Integer>();
+		Iterator<Integer> itr = hashSet.iterator();		
+		
 		for (Integer numbersInList : list) {
 			hashSet.add(numbersInList);
 		}
 		
-		Iterator<Integer> itr = hashSet.iterator();
-		
+
 		while(itr.hasNext()){
 			int number = itr.next();
 			if(number < valueE){
