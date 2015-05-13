@@ -24,7 +24,8 @@ public class Run {
 		// runExSix();
 		// runExSeven();
 		// runExEight();
-		runExNine();
+		//runExNine();
+		runExTeen();
 	}
 
 	public static void runExTwo() {
@@ -214,5 +215,20 @@ public class Run {
 			someStrings.add(integer);
 
 		System.out.println(run.hasOdd(someStrings));
+	}
+	public static void runExTeen(){
+//	10. Write a method removeEvenLength that accepts a set of strings 
+//	as a parameter and that removes all of the strings of even length 
+//	from the set.
+	
+		Teen run = new Teen();
+		Set<String> setOfStrings = new HashSet<String>();
+		String arrayOfStrings[] = {"One", "Two", "Three", "Four", "Five", "Six", "Seven"};
+		
+		for(String string : arrayOfStrings)
+			setOfStrings.add(string);
+		
+		run.removeEvenLength(setOfStrings);
+		
 	}
 }
