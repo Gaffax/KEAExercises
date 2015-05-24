@@ -20,7 +20,7 @@ public class main {
 		String path = "src\\aliceinwonderland.txt";
 		
 		ProcessAlice run = new ProcessAlice(path);
-		//run.printNumberOfLetters();
+		run.printNumberOfLetters();
 		run.showLetterPercentageDistribution();
 	}
 }
