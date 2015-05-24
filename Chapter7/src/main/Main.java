@@ -1,9 +1,25 @@
 package main;
 
+import exercises.One;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		One stack = new One();
+
+		stack.push(new Integer(4));
+//		stack.push(new Integer(5));
+//		stack.push(new Integer(6));
+//		stack.push(new Integer(7));
+//		stack.push(new Integer(8));
+//		stack.push(new Integer(9));
+//		stack.push(new Integer(10));
+//		stack.push(new Integer(12));
+//		stack.push(new Integer(3));
+
+		while (!stack.isEmpty())
+			System.out.println((Integer) (stack.pop()));
+		
 
 	}
 	
@@ -19,9 +35,7 @@ public class Main {
 	 * h. Sorting an array of n integers into ascending order by using a merge sort
 	 */
 	
-	/*
-	 * I dont get the question.  
-	 */
+
 	
 	
 	// 7.13

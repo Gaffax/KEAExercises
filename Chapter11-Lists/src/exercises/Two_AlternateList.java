@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ExTwo_AlternateList {
+public class Two_AlternateList {
 
 	/*
 	2. Write a method called alternate that accepts two Lists as its parameters and returns a new List containing alternating

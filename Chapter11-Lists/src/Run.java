@@ -52,7 +52,7 @@ public class Run {
 			listTwo.add(i);
 		}
 
-		ExTwo_AlternateList splicedList = new ExTwo_AlternateList();
+		Two_AlternateList splicedList = new Two_AlternateList();
 
 		System.out.print(splicedList.spliceLists(listOne, listTwo));
 	}
@@ -82,7 +82,7 @@ public class Run {
 			list.add(arrayOfInts[i]);
 		}
 
-		ExThree removeInRange = new ExThree();
+		Three removeInRange = new Three();
 		removeInRange.removeInRange(list, 0, 5, 13);
 	}
 
@@ -109,7 +109,7 @@ public class Run {
 			list.add(arrayOfInts[i]);
 		}
 
-		ExFour partition = new ExFour();
+		Four partition = new Four();
 
 		if (runSolution == 1) {
 			partition.partitionSetSolution(list, valueE);// Does not allow
@@ -140,7 +140,7 @@ public class Run {
 			list.add(arrayOfInts[i]);
 		}
 
-		ExFive run = new ExFive();
+		Five run = new Five();
 
 		run.sortAndRemoveDublicates(list);
 	}
@@ -155,7 +155,7 @@ public class Run {
 
 		int[] arrayOfInts = { 3, 7, 3, -1, 2, 3, 7, 2, 15, 15 };
 
-		ExSix run = new ExSix();
+		Six run = new Six();
 
 		run.countUnique(arrayOfInts);
 
@@ -176,7 +176,7 @@ public class Run {
 		int[] arrayOfIntsOne = { 3, 7, 3, -1, 2, 3, 7, 2, 15, 15 };
 		int[] arrayOfIntsTwo = { -5, 15, 2, -1, 7, 15, 36 };
 
-		ExSeven run = new ExSeven();
+		Seven run = new Seven();
 
 		run.countCommon(arrayOfIntsOne, arrayOfIntsTwo);
 
@@ -206,7 +206,7 @@ public class Run {
 		// least one odd integer and false otherwise. If passed
 		// the empty set, your method should return false.
 
-		ExNine run = new ExNine();
+		Nine run = new Nine();
 		int[] arrayOfInts = { -5, 15, 2, -1, 7, 15, 36, 15, 2, -1, 7, 15, 36 };
 
 		Set<Integer> someStrings = new HashSet<Integer>();

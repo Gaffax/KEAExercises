@@ -8,9 +8,9 @@ public class main {
 
 		// Uncomment static methods to run exercise solution.
 		
-		//one();
-		//two();
-		//three();
+		one();
+		two();
+		three();
 		four();
 		
 		//System.out.println(Math.abs(2.5));

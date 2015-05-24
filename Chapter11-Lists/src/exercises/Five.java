@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-public class ExFive {
+public class Five {
 //	5. Write a method called sortAndRemoveDuplicates that 
 //	accepts a list of integers as its parameter and rearranges
 //	the list’s elements into sorted ascending order, as well as 

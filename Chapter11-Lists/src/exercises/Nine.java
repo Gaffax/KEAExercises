@@ -3,7 +3,7 @@ package exercises;
 import java.util.Iterator;
 import java.util.Set;
 
-public class ExNine {
+public class Nine {
 	// 9. Write a method hasOdd that accepts a set of integers
 	// as a parameter and returns true if the set contains at
 	// least one odd integer and false otherwise. If passed

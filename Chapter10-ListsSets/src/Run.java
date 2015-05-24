@@ -141,7 +141,7 @@ public class Run {
 	
 		MinToFront run = new MinToFront();
 		
-		List<Integer> input = new ArrayList();
+		List<Integer> input = new ArrayList<Integer>();
 		
 		input.add(3);
 		input.add(8);

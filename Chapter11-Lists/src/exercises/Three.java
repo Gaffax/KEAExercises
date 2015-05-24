@@ -3,7 +3,7 @@ package exercises;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ExThree {
+public class Three {
 //	3. Write a method called removeInRange that accepts four parameters: a LinkedList, an element value, a starting
 //	index, and an ending index. The method’s behavior is to remove all occurrences of the given element that appear in
 //	the list between the starting index (inclusive) and the ending index (exclusive). Other values and occurrences of the

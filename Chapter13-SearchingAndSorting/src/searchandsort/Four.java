@@ -12,6 +12,7 @@ public class Four {
 	public void howManyWordsBetween(String startingWord, String endingWord){
 		
 		try {
+			@SuppressWarnings("resource")
 			Scanner dictionary = new Scanner(new File("C:\\Users\\Gaffax\\studyExercises\\Ex13.1-13.11-SearchingAndSorting\\src\\wordlist.txt"));//Found on http://getintopc.com/softwares/education/oxford-advanced-learners-dictionary-free-download/
 	
 			Set<String> words = new TreeSet<String>();

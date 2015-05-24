@@ -1,6 +1,6 @@
 package exercises;
 
-public class ExOne {
+public class One {
 
 	/*
 	Modify the Sieve program developed in Section 11.1 to make two optimizations. First, instead of storing all integers

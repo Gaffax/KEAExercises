@@ -1,7 +1,5 @@
 package exercises;
 
-import java.math.BigDecimal;
-
 public class Four {
 	// 4. Write a recursive method called doubleDigits that
 	// accepts an integer n as a parameter and returns the integer

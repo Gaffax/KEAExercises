@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-public class ExFour {
+public class Four {
 	// 4. Write a method called partition that accepts a list of integers
 	// and an integer value E as its parameter, and rearranges
 	// (partitions) the list so that all the elements with values less than

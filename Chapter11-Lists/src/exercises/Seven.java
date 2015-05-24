@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class ExSeven {
+public class Seven {
 	// 7. Write a method countCommon that accepts two lists
 	// of integers as parameters and returns the number of
 	// unique integers
